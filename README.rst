@@ -13,24 +13,24 @@ INSTALLATION
 
 1. Use the deb package. Should be in github download section. 
 
-    dpkg -i package_name.deb
+        dpkg -i package_name.deb
 
-Remember to restart nautilus:
+    Remember to restart nautilus:
 
-    nautilus -q or
-    killall nautilus
+        nautilus -q or
+        killall nautilus
 
-This installs all dependencies, so you don't have to worry about anything else.
+    This installs all dependencies, so you don't have to worry about anything else.
 
 2. Copy all files from the package into $HOME/.nautilus/python-extensions/
 
-Install python-nautilus package (http://projects.gnome.org/nautilus-python/):
+    Install python-nautilus package (http://projects.gnome.org/nautilus-python/):
     
-    sudo apt-get install python-nautilus - for Ubuntu/Ubuntu forks
+        sudo apt-get install python-nautilus - for Ubuntu/Ubuntu forks
 
-Restart nautilus:
+    Restart nautilus:
 
-    nautilus -q
+        nautilus -q
 
 
 USAGE
