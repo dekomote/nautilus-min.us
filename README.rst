@@ -11,7 +11,18 @@ and Ubuntu forks have libnotify by default.
 INSTALLATION
 ############
 
-Copy all files from the package into $HOME/.nautilus/python-extensions/
+1. Use the deb package. Should be in github download section. 
+
+    dpkg -i package_name.deb
+
+Remember to restart nautilus:
+
+    nautilus -q or
+    killall nautilus
+
+This installs all dependencies, so you don't have to worry about anything else.
+
+2. Copy all files from the package into $HOME/.nautilus/python-extensions/
 
 Install python-nautilus package (http://projects.gnome.org/nautilus-python/):
     
@@ -21,8 +32,6 @@ Restart nautilus:
 
     nautilus -q
 
-I will try to make a deb package soon that will take care of the dependencies if
-there's interest for the extension.
 
 USAGE
 #####
